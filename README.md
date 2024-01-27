@@ -15,22 +15,22 @@ Make sure you have Go installed on your machine.
 
 1. Clone the project:
 ```bash
-    git clone https://github.com/yourusername/lango.git
+git clone https://github.com/yourusername/lango.git
 ```
 
 2. Navigate to the project directory:
 ```bash
-    cd lango
+cd lango
 ```
 
 3. Install dependencies:
 ```bash
-    go get -d -v ./...
+go get -d -v ./...
 ```
 
 4. Build the project:
 ```bash
-    go build
+go build
 ```
 
 ### Usage
@@ -39,5 +39,6 @@ To run the project:
 
 ```bash
 ./lango
+```
 
 The server will start, and you can access the API at http://localhost:9090.
